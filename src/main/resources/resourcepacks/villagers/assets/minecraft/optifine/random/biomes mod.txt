@@ -1,0 +1,243 @@
+End Biome:
+poise_forest vibra_jungle chorus_forest amber_land blossoming_spires chorus_forest crystal_mountains dust wastelands foggy_mushroomland megalake megalake_grove painted_mountains shadow_forest sulphur_springs umbrella_jungle glowing_grasslands neon_oasis lantern_woods dragon_graveyards umbra_valley dry_shrubland lush_aurora_cave empty_smaragdant_cave empty_end_cave lush_end_cave ice_starfield
+
+Nether Biome:
+glowstone_canyon empty_nether gravel_desert magma_land mushroom_forest nether_grasslands nether_jungle nether_swampland wart_forest bone_reef crimson_glowing_woods crimson_pinewood mushroom_forest_edge nether_swampland_terraces old_fungiwoods old_warped_woods poor_grasslands soul_plain wart_forest_edge
+
+
+
+
+
+
+
+
+
+
+
+
+Traverse:
+Grass and Forest:
+autumnal_woods flatlands woodlands
+
+Desert biome:
+desert_shrubland
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aether:
+aether_highlands aether_magnetic_hills aether_arctic_peaks aether_forgotten_highlands aether_irradiated_forests
+
+
+
+
+
+
+Biomes o Plenty:
+Nether Biome:
+ashen_inferno crystalline_chasm erupting_inferno undergrowth visceral_heap withered_abyss
+
+Grass and Forest:
+woodland overgrown_cliffs lush_swamp chaparral woodland wooded_scrubland wetland shrubland tropics seasonal_forest scrubland rocky_shrubland rocky_rainforest redwood_forest rainforest pumpkin_patch prairie origin_valley orchard old_growth_woodland mystic_grove mediterranean_forest marsh maple_woods bamboo_grove bayou boreal_forest cherry_blossom_grove clover_patch field floodplain forested_field fungal_jungle grassland highland highland_moor jade_cliffs lavender_field lavender_forest
+
+Rocky Biome:
+bog cold_desert crag omnimous_woods tundra volcanic_plains volcano wasteland wooded_wasteland
+
+Taiga Biome:
+coniferous_forest fir_cleaning
+
+Mesa Biome:
+lush_desert outback dead_forest dryland lush_savanna old_growth_dead_forest pasture ghost_forest
+
+Desert Biome:
+dune_beach oasis xeric_shrubland
+
+Snow Biome:
+muskleg rainbow_hills snowy_coniferous_forest snowy_fir_cleaning snowy_maple_woods snowy_forest
+
+Ocean Biome:
+white_beach origin_beach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Twilight Forest:
+Grass and Forest:
+twilight_forest dense_twilight_forest swamp fire_swamp highlands mushroom_forest deep_mushroom_forest clearing lake dark_forest enchanted_forest snowy_forest river
+
+Snow Biome:
+glacier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terralith:
+Grass and Forest:
+yosemite_cliffs yosemite_lowlands alpha_islands alpine_highlands amethyst_canyon amethyst_rainforest arid_highlands birch_taiga blooming_plateau blooming_valley brushland cloud_forest granite_cliffs haze_mountain highlands hot_shrubland jungle_mountains lavender_forest lavender_valley lush_valley mirage_isles moonlight_grove moonlight_valley orchid_swamp sakura_grove sakura_valley shield_clearing shield skylands skylands_spring skylands_summer temperate_highlands tropical_jungle valley_clearing
+
+Taiga Biome:
+siberian_taiga skylands_autumn
+
+Rocky Biomes:
+windswept_spires white_cliffs white_mesa warped_mesa gravel_beach ashen_savanna rocky_jungle basalt_cliffs bryce_canyon caldera rocky_mountains rocky_jungle rocky_mountains rocky_shrubland shrubland stony_spires volcanic_crater volcanic_peaks
+
+Desert Biome:
+ancient_sands desert_canyon desert_oasis desert_spires lush_desert sandstone_valley
+
+Mesa Biome:
+steppe yellowstone painted_mountains fractured_savanna red_oasis savanna_badlands savanna_slopes
+
+Snow Biome:
+wintry_lowlands wintry_forest alpha_islands_winter alpine_grove emerald_peaks frozen_cliffs glacial_chasm gravel_desert ice_marsh cold_shrubland scarlet_mountains siberian_grove skylands_winter snowy_badlands snowy_maple_forest snowy_shield
+
+Ocean Biome:
+warm_river
+
+Caverns:
+tuff_caves mantle_caves frostfire_caves deep_caves crystal_caves andesite_caves diorite_caves fungal_caves granite_caves infested_caves thermal_caves underground_jungle
+
+desert_caves
+
+ice_caves
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+oh the biomes youll go:
+End Biome:
+ivis_fields bulbis_gardens shattered_desert ethereal_islands purpur_peaks cryptic_wastes viscal_isles shulkren_forest nightshade_forest imparius_grove
+
+Nether Biome:
+embur_bog glowstone_gardens sythian_torrids warped_desert subzero_hypogeal quartz_desert brimstone_caverns weeping_mire withering_woods magma_wastes wailing_garth crimson_gardens
+
+Grass and Forest:
+baobab_savanna firecracker_shrubland allium_fields amaranth_fields aspen_forest bayou crag_gardens cypress_swamplands cherry_blossom_forest ebony_woods temperate_grove guiana_shield jacaranda_forest white_magrove_marshes coconino_meadow orchard prairie red_oak_forest redwood_thicket tropical_rainforest temperate_rainforest autumnal_valley borealis_grove maple_taiga autumnal_forest autumnal_taiga skyris_vale black_forest zelkova_forest fragmental_forest araucaria_savanna rose_fields twilight_meadow
+
+Taiga Biome:
+canadian_shield cika_woods coniferous_forest dacite_ridges
+
+Rocky Biome:
+forgotten_forest weeping_witch_forest cardinal_tundra
+
+Desert Biome:
+mojave_desert windswept_desert
+
+Mesa Biome:
+red_rock_valley sierra_badlands atacama_desert 
+
+Snow Biome:
+shattered_glacier frosted_taiga frosted_coniferous_forest howling_peaks
+
+Ocean Biome:
+dead_sea lush_stacks rainbow_beach dacite_shore basalt_barrera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iron Golem
+
+
+GRASS:
+biomes.#= autumnal_woods flatlands woodlands woodland overgrown_cliffs lush_swamp chaparral woodland wooded_scrubland wetland shrubland tropics seasonal_forest scrubland rocky_shrubland rocky_rainforest redwood_forest rainforest pumpkin_patch prairie origin_valley orchard old_growth_woodland mystic_grove mediterranean_forest marsh maple_woods bamboo_grove bayou boreal_forest cherry_blossom_grove clover_patch field floodplain forested_field fungal_jungle grassland highland highland_moor jade_cliffs lavender_field lavender_forest twilight_forest dense_twilight_forest swamp fire_swamp highlands mushroom_forest deep_mushroom_forest clearing lake dark_forest enchanted_forest snowy_forest river yosemite_cliffs yosemite_lowlands alpha_islands alpine_highlands amethyst_canyon amethyst_rainforest arid_highlands birch_taiga blooming_plateau blooming_valley brushland cloud_forest granite_cliffs haze_mountain highlands hot_shrubland jungle_mountains lavender_forest lavender_valley lush_valley mirage_isles moonlight_grove moonlight_valley orchid_swamp sakura_grove sakura_valley shield_clearing shield skylands skylands_spring skylands_summer temperate_highlands tropical_jungle valley_clearing baobab_savanna firecracker_shrubland allium_fields amaranth_fields aspen_forest bayou crag_gardens cypress_swamplands cherry_blossom_forest ebony_woods temperate_grove guiana_shield jacaranda_forest white_magrove_marshes coconino_meadow orchard prairie red_oak_forest redwood_thicket tropical_rainforest temperate_rainforest autumnal_valley borealis_grove maple_taiga autumnal_forest autumnal_taiga skyris_vale black_forest zelkova_forest fragmental_forest araucaria_savanna rose_fields twilight_meadow
+
+
+TAIGA:
+biomes.#= canadian_shield cika_woods coniferous_forest dacite_ridges siberian_taiga skylands_autumn coniferous_forest fir_cleaning
+
+
+DESERT:
+biomes.#= desert_shrubland dune_beach oasis xeric_shrubland ancient_sands desert_canyon desert_oasis desert_spires lush_desert sandstone_valley desert_caves mojave_desert windswept_desert
+
+
+ROCKY:
+biomes.#= bog cold_desert crag omnimous_woods tundra volcanic_plains volcano wasteland wooded_wasteland windswept_spires white_cliffs white_mesa warped_mesa gravel_beach ashen_savanna rocky_jungle basalt_cliffs bryce_canyon caldera rocky_mountains rocky_jungle rocky_mountains rocky_shrubland shrubland stony_spires volcanic_crater volcanic_peaks forgotten_forest weeping_witch_forest cardinal_tundra
+
+
+END:
+biomes.#= poise_forest vibra_jungle chorus_forest amber_land blossoming_spires chorus_forest crystal_mountains dust wastelands foggy_mushroomland megalake megalake_grove painted_mountains shadow_forest sulphur_springs umbrella_jungle glowing_grasslands neon_oasis lantern_woods dragon_graveyards umbra_valley dry_shrubland ivis_fields bulbis_gardens shattered_desert ethereal_islands purpur_peaks cryptic_wastes viscal_isles shulkren_forest nightshade_forest imparius_grove lush_aurora_cave empty_smaragdant_cave empty_end_cave lush_end_cave ice_starfield
+
+
+NETHER:
+biomes.#= glowstone_canyon empty_nether gravel_desert magma_land mushroom_forest nether_grasslands nether_jungle nether_swampland wart_forest bone_reef crimson_glowing_woods crimson_pinewood mushroom_forest_edge nether_swampland_terraces old_fungiwoods old_warped_woods poor_grasslands soul_plain wart_forest_edge ashen_inferno crystalline_chasm erupting_inferno undergrowth visceral_heap withered_abyss embur_bog glowstone_gardens sythian_torrids warped_desert subzero_hypogeal quartz_desert brimstone_caverns weeping_mire withering_woods magma_wastes wailing_garth crimson_gardens
+
+AETHER:
+weights.#= aether_highlands aether_magnetic_hills aether_arctic_peaks aether_forgotten_highlands aether_irradiated_forests
+
+MESA:
+biomes.#= lush_desert outback dead_forest dryland lush_savanna old_growth_dead_forest pasture ghost_forest steppe yellowstone painted_mountains fractured_savanna red_oasis savanna_badlands savanna_slopes red_rock_valley sierra_badlands atacama_desert 
+
+SNOW:
+biomes.#= muskleg rainbow_hills snowy_coniferous_forest snowy_fir_cleaning snowy_maple_woods snowy_forest glacier wintry_lowlands wintry_forest alpha_islands_winter alpine_grove emerald_peaks frozen_cliffs glacial_chasm gravel_desert ice_marsh cold_shrubland scarlet_mountains siberian_grove skylands_winter snowy_badlands snowy_maple_forest snowy_shield shattered_glacier frosted_taiga frosted_coniferous_forest howling_peaks
+
+OCEAN:
+biomes.#= white_beach origin_beach warm_river dead_sea lush_stacks rainbow_beach dacite_shore basalt_barrera
+

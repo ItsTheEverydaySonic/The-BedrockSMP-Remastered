@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "minecraft:happy_ghast": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:happy_ghast"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.oh_no.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dried_ghast"
+    },
+    "title": {
+      "translate": "advancements.adventure.oh_no.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "minecraft:happy_ghast"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

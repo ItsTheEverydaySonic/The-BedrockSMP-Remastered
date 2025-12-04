@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "kitty",
+  "version": "${version}",
+  "name": "Minecraft: Spooky Season",
+  "description": "Minecraft's New Halloween Update",
+  "authors": [
+    "ItsKittyYouTube"
+  ],
+  "contributors": [
+    "ItsMoonYouTube"
+  ],
+  "license": "CC0 1.0",
+  "icon": "pack_image/halloween.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.itskittyyoutube.kitty.TheBedrockSMPRemastered"
+    ],
+    "terrablender": [
+      "net.itskittyyoutube.kitty.TheBedrockSMPTerrablenderAPI"
+    ],
+    "fabric-datagen": [
+      "net.itskittyyoutube.kitty.TheBedrockSMPDataGenerator"
+    ],
+    "client": [
+      "net.itskittyyoutube.kitty.TheBedrockSMPClient"
+    ]
+  },
+  "mixins": [
+    "kitty.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "recommends": {
+    "modmenu": "*",
+    "voicechat": "*",
+    "sound_physics_remastered": "*",
+    "entity_model_features": "*",
+    "entity_texture_features": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.youtubekitty": "https://www.youtube.com/@ItsKittyYouTube?sub_confirmation=1",
+        "modmenu.youtubemoon": "https://www.youtube.com/@ItsMoonDogggYT?sub_confirmation=1",
+        "modmenu.youtubekittyandmoon": "https://www.youtube.com/@kittyandmoon?sub_confirmation=1",
+        "modmenu.miniverse": "https://discord.gg/geng92VaWv"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+biomes.#= forest wooded_hills flower_forest birch_forest birch_forest_hills tall_birch_forest tall_birch_hills dark_forest dark_forest_hills jungle jungle_hills modified_jungle jungle_edge modified_jungle_edge bamboo_jungle bamboo_jungle_hills swamp swamp_hills savanna savanna_plateau shattered_savanna shattered_savanna_plateau plains sunflower_plains lush_caves old_growth_birch_forest old_growth_pine_taiga old_growth_spruce_taiga sparse_jungle windswept_hills windswept_forest windswept_gravelly_hills windswept_savanna meadow grove deep_dark mangrove mangrove_swamp mangrove_forest
+
+biomes.#= ocean deep_ocean lukewarm_ocean deep_lukewarm_ocean warm_ocean deep_warm_ocean river frozen_river beach stone_shore snowy_beach stony_shore
+
+biomes.#= desert desert_hills desert_lakes
+
+biomes.#= snowy_taiga snowy_taiga_hills snowy_taiga_mountains snowy_tundra snowy_mountains ice_spikes frozen_ocean deep_frozen_ocean cold_ocean deep_cold_ocean snowy_plains snowy_slopes frozen_peaks jagged_peaks
+
+biomes.#= badlands badlands_plateau modified_badlands_plateau wooded_badlands_plateau modified_wooded_badlands_plateau eroded_badlands wooded_badlands
+
+biomes.#= mushroom_fields mushroom_field_shore mushroomisland mushroomislandshore
+
+biomes.#= nether nether_wastes crimson_forest warped_forest soul_sand_valley basalt_deltas
+
+biomes.#= end_barrens end_highlands end_midlands small_end_islands the_end the_void
+
+biomes.#= taiga taiga_hills taiga_mountains giant_tree_taiga giant_tree_taiga_hills giant_spruce_taiga giant_spruce_taiga_hills
+
+biomes.#= mountains wooded_mountains gravelly_mountains modified_gravelly_mountains mountain_edge stony_peaks dripstone_caves

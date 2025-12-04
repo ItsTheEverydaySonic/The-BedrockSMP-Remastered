@@ -1,0 +1,8 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "item.kitty.music_disc_12.desc"
+  },
+  "length_in_seconds": 178.0,
+  "sound_event": "kitty:12"
+}

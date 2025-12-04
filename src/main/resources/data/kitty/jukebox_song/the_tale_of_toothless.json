@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.kitty.music_disc_the_tale_of_toothless.desc"
+  },
+  "length_in_seconds": 194.0,
+  "sound_event": "kitty:the_tale_of_toothless"
+}

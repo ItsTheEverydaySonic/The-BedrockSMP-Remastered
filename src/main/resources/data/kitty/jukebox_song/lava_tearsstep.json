@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.kitty.music_disc_lava_tearsstep.desc"
+  },
+  "length_in_seconds": 175.0,
+  "sound_event": "kitty:lava_tearsstep"
+}

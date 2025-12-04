@@ -1,0 +1,154 @@
+{
+  "music.calm.thomas_soundtrack": {
+    "sounds": [
+      {
+        "name": "kitty:music/calm/thomas_soundtrack",
+        "stream": true
+      }
+    ]
+  },
+  "music.horror.march_of_midnight": {
+    "sounds": [
+      {
+        "name": "kitty:music/horror/march_of_midnight",
+        "stream": true
+      }
+    ]
+  },
+  "nonmusic.ayo_wtf.oh_my_god_bro_oh_hell_nah": {
+    "sounds": [
+      {
+        "name": "kitty:nonmusic/ayo_wtf/oh_my_god_bro_oh_hell_nah",
+        "stream": true
+      }
+    ]
+  },
+  "siren.nuclear_alarm_siren": {
+    "sounds": [
+      {
+        "name": "kitty:siren/nuclear_alarm_siren",
+        "stream": true
+      }
+    ]
+  },
+  "nonmusic.ayo_wtf.gay_echo": {
+    "sounds": [
+      {
+        "name": "kitty:nonmusic/ayo_wtf/gay_echo",
+        "stream": true
+      }
+    ]
+  },
+  "nonmusic.fbi_open_up_sfx": {
+    "sounds": [
+      {
+        "name": "kitty:nonmusic/fbi_open_up_sfx",
+        "stream": true
+      }
+    ]
+  },
+  "nonmusic.limit_on_talking": {
+    "sounds": [
+      {
+        "name": "kitty:nonmusic/limit_on_talking",
+        "stream": true
+      }
+    ]
+  },
+  "siren.silent_hill_siren": {
+    "sounds": [
+      {
+        "name": "kitty:siren/silent_hill_siren",
+        "stream": true
+      }
+    ]
+  },
+  "nonmusic.warning": {
+    "sounds": [
+      {
+        "name": "kitty:nonmusic/warning",
+        "stream": true
+      }
+    ]
+  },
+  "bye_justin_hi_justin": {
+    "sounds": [
+      {
+        "name": "kitty:records/bye_justin_hi_justin",
+        "stream": true
+      }
+    ]
+  },
+  "the_tale_of_toothless": {
+    "sounds": [
+      {
+        "name": "kitty:records/the_tale_of_toothless",
+        "stream": true
+      }
+    ]
+  },
+  "steve_lava_chicken": {
+    "sounds": [
+      {
+        "name": "kitty:records/steve_lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "lava_tearsstep": {
+    "sounds": [
+      {
+        "name": "kitty:records/lava_tearsstep",
+        "stream": true
+      }
+    ]
+  },
+  "terrifying_tears": {
+    "sounds": [
+      {
+        "name": "kitty:records/terrifying_tears",
+        "stream": true
+      }
+    ]
+  },
+  "ultra_terrifying_tears": {
+    "sounds": [
+      {
+        "name": "kitty:records/ultra_terrifying_tears",
+        "stream": true
+      }
+    ]
+  },
+  "betterside": {
+    "sounds": [
+      {
+        "name": "kitty:records/betterside",
+        "stream": true
+      }
+    ]
+  },
+  "12": {
+    "sounds": [
+      {
+        "name": "kitty:records/12",
+        "stream": true
+      }
+    ]
+  },
+  "explorer": {
+    "sounds": [
+      {
+        "name": "kitty:records/explorer",
+        "stream": true
+      }
+    ]
+  },
+  "bye_justin_hi_justin_remastered": {
+    "sounds": [
+      {
+        "name": "kitty:records/bye_justin_hi_justin_remastered",
+        "stream": true
+      }
+    ]
+  }
+}

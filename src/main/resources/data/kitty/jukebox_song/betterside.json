@@ -1,0 +1,8 @@
+{
+  "comparator_output": 14,
+  "description": {
+    "translate": "item.kitty.music_disc_betterside.desc"
+  },
+  "length_in_seconds": 402.0,
+  "sound_event": "kitty:betterside"
+}

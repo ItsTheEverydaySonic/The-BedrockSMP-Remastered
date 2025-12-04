@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.kitty.music_disc_bye_justin_hi_justin_remastered.desc"
+  },
+  "length_in_seconds": 168.0,
+  "sound_event": "kitty:bye_justin_hi_justin_remastered"
+}

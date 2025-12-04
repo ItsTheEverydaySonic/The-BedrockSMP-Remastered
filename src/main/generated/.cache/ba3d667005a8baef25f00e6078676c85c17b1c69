@@ -1,0 +1,15 @@
+// 1.21.10	-999999999-01-01T00:00:00	Minecraft: Spooky Season/Tags for minecraft:block
+01a3e66dc1885e9041954641dc2510dbb8d8cce4 data/minecraft/tags/block/doors.json
+b21ec43e45f9ccebdd33aff297ac62d17fedf7ff data/minecraft/tags/block/fence_gates.json
+4a74c70c0fb8575dfcd637c9425522a844065471 data/minecraft/tags/block/logs_that_burn.json
+f328b680f1df087038be4c18bf3a814fdc7e212c data/minecraft/tags/block/mineable/pickaxe.json
+7aba74d4fbe89bfb3df30e3e5f1296ee5de18f6b data/minecraft/tags/block/needs_diamond_tool.json
+f0ccea7e780dc5a1956a70b82f2e74e684fbac77 data/minecraft/tags/block/needs_stone_tool.json
+77dcab475172b7ca45db23920d51b51328829c03 data/minecraft/tags/block/trapdoors.json
+d00932dc5eca1b32e4843674ae8ae8f7ff7f4c00 data/minecraft/tags/block/wooden_buttons.json
+7f2de5c12a419db17e7ad562f3633b89a6fa31a3 data/minecraft/tags/block/wooden_doors.json
+1ef8f9b242ea6ff76626abbe2d615a5dd6d185a3 data/minecraft/tags/block/wooden_fences.json
+6633a89c741ffd36a0d61048781828889ee07cdc data/minecraft/tags/block/wooden_pressure_plates.json
+e4fd9800e25d8c52fa8411977c315847d7328495 data/minecraft/tags/block/wooden_slabs.json
+bf2749cdff5ee5d1cf573ec61a4922c15d4221cb data/minecraft/tags/block/wooden_stairs.json
+7af520fe5a7fc4575d8220933b526eefa2ba453b data/minecraft/tags/block/wooden_trapdoors.json
