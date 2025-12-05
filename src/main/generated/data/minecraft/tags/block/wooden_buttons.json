@@ -1,5 +1,21 @@
 {
   "values": [
-    "kitty:cherry_birch_button"
+    "kitty:cherry_birch_button",
+    "kitty:white_button",
+    "kitty:light_gray_button",
+    "kitty:gray_button",
+    "kitty:black_button",
+    "kitty:brown_button",
+    "kitty:red_button",
+    "kitty:orange_button",
+    "kitty:yellow_button",
+    "kitty:lime_button",
+    "kitty:green_button",
+    "kitty:cyan_button",
+    "kitty:light_blue_button",
+    "kitty:blue_button",
+    "kitty:purple_button",
+    "kitty:magenta_button",
+    "kitty:pink_button"
   ]
 }

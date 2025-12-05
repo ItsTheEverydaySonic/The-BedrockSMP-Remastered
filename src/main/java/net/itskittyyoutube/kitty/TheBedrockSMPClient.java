@@ -19,11 +19,16 @@ public final class TheBedrockSMPClient implements ClientModInitializer {
     public static final String PACK_ID7 = "named_music_discs";
     public static final String PACK_ID8 = "villagers";
     public static final String PACK_ID9 = "old_dye";
-    public static final String PACK_ID10 = "bedrocksmp_look";
+    public static final String PACK_ID10 = "bedrocksmp";
+    public static final String PACK_ID11 = "bedrocksmp_icons";
 
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.putBlock(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(TheBedrockSMPBlocks.CHERRY_BIRCH_DOOR, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(TheBedrockSMPBlocks.CHERRY_BIRCH_TRAPDOOR, BlockRenderLayer.CUTOUT);
 
         TheBedrockSMPBabyProperty.register();
 
@@ -80,7 +85,12 @@ public final class TheBedrockSMPClient implements ClientModInitializer {
         TheBedrockSMPBuiltinResourcePack.register(
                 TheBedrockSMPRemastered.MOD_ID,
                 PACK_ID10,
-                Text.translatable("pack.kitty.bedrocksmp_look")
+                Text.translatable("pack.kitty.bedrocksmp")
+        );
+        TheBedrockSMPBuiltinResourcePack.register(
+                TheBedrockSMPRemastered.MOD_ID,
+                PACK_ID11,
+                Text.translatable("pack.kitty.bedrocksmp_icons")
         );
     }
 }

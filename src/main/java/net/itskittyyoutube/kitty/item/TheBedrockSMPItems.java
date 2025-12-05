@@ -15,6 +15,7 @@ import net.minecraft.util.Rarity;
 import java.util.function.Function;
 
 public class TheBedrockSMPItems {
+    //Music Discs
     public static final Item MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP = registerItem("music_disc_bye_justin_hi_justin",
             setting -> new Item(setting.jukeboxPlayable(TheBedrockSMPSounds.THE_BYE_JUSTIN_HI_JUSTIN_RAP_KEY).maxCount(1)));
     public static final Item MUSIC_DISC_THE_TALE_OF_TOOTHLESS = registerItem("music_disc_the_tale_of_toothless",
@@ -34,13 +35,31 @@ public class TheBedrockSMPItems {
     public static final Item MUSIC_DISC_EXPLORER = registerItem("music_disc_explorer",
             setting -> new Item(setting.jukeboxPlayable(TheBedrockSMPSounds.EXPLORER_KEY).maxCount(1)));
 
+    //Items
     public static final Item BEDROCKSMP_ICON = registerItem("bedrocksmp_icon",
             settings -> new Item(settings.rarity(Rarity.EPIC).maxCount(64)));
     public static final Item BIG_STICK = registerItem("big_stick",
             settings -> new Item(settings.maxCount(64)));
     public static final Item CURSED_EMERALD = registerItem("cursed_emerald",
             settings -> new Item(settings.rarity(Rarity.EPIC).maxCount(1)));
+    public static final Item YOUTUBE_LOGO = registerItem("youtube_logo",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item SILVER_PLAY_BUTTON = registerItem("silver_play_button",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item GOLDEN_PLAY_BUTTON = registerItem("golden_play_button",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item DIAMOND_PLAY_BUTTON = registerItem("diamond_play_button",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item STEEL_INGOT = registerItem("steel_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item STEEL_ROD = registerItem("steel_rod",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item REINFORCED_PAPER = registerItem("reinforced_paper",
+            settings -> new Item(settings.maxCount(64).fireproof()));
+    public static final Item MONEY = registerItem("money",
+            settings -> new Item(settings.maxCount(64)));
 
+    //Extra
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name), item);
     }
@@ -52,6 +71,7 @@ public class TheBedrockSMPItems {
     public static void registerItems() {
         TheBedrockSMPRemastered.LOGGER.info("Registering Items for " + TheBedrockSMPRemastered.MOD_ID);
 
+        //Creative Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP);
             entries.add(MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
@@ -62,9 +82,14 @@ public class TheBedrockSMPItems {
             entries.add(MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP_REMASTERED);
             entries.add(MUSIC_DISC_EXPLORER);
         });
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(BIG_STICK);
             entries.add(CURSED_EMERALD);
+            entries.add(STEEL_INGOT);
+            entries.add(STEEL_ROD);
+            entries.add(REINFORCED_PAPER);
+            entries.add(MONEY);
         });
     }
 }

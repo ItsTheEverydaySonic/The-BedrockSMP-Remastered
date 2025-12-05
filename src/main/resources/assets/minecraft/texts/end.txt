@@ -148,4 +148,4 @@
 
 §3You are the player.
 
-§2Wake up.
+§2PLAYERNAME, Wake up, you need to wake up from this dream!
