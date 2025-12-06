@@ -2,7 +2,7 @@ package net.itskittyyoutube.kitty.data;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.itskittyyoutube.kitty.block.TheBedrockSMPBlocks;
 import net.itskittyyoutube.kitty.item.TheBedrockSMPItems;
 import net.itskittyyoutube.kitty.util.TheBedrockSMPBabyProperty;
@@ -242,7 +242,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         Model model = Models.GENERATED;
         if (this.small) {
             model = new Model(
-                    Optional.of(Identifier.of(TheBedrockSMPRemastered.MOD_ID, "item/smaller_util")),
+                    Optional.of(Identifier.of(TheBedrockSMP.MOD_ID, "item/smaller_util")),
                     Optional.empty(),
                     TextureKey.LAYER0
             );

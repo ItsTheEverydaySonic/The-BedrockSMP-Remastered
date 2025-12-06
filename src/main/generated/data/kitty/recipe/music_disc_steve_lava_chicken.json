@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:player_head"
+    "#kitty:heads"
   ],
   "result": {
     "count": 1,

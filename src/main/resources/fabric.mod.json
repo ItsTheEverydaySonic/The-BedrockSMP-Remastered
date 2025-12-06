@@ -3,7 +3,7 @@
   "id": "kitty",
   "version": "${version}",
   "name": "The-BedrockSMP Remastered",
-  "description": "The-BedrockSMP is back - 1.21.10 Updated",
+  "description": "The-BedrockSMP is back - 1.21.10 Update",
   "authors": [
     "ItsKittyYouTube"
   ],
@@ -21,7 +21,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.itskittyyoutube.kitty.TheBedrockSMPRemastered"
+      "net.itskittyyoutube.kitty.TheBedrockSMP"
     ],
     "terrablender": [
       "net.itskittyyoutube.kitty.TheBedrockSMPTerrablenderAPI"

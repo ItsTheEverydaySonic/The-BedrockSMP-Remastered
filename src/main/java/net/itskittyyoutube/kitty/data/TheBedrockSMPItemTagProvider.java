@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.itskittyyoutube.kitty.block.TheBedrockSMPBlocks;
 import net.itskittyyoutube.kitty.item.TheBedrockSMPItems;
 import net.itskittyyoutube.kitty.util.TheBedrockSMPTags;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -264,5 +265,12 @@ public class TheBedrockSMPItemTagProvider extends FabricTagProvider.ItemTagProvi
                 .add(TheBedrockSMPItems.MUSIC_DISC_12)
                 .add(TheBedrockSMPItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP_REMASTERED)
                 .add(TheBedrockSMPItems.MUSIC_DISC_EXPLORER);
+
+        valueLookupBuilder(TheBedrockSMPTags.Items.HEADS)
+                .add(Items.PLAYER_HEAD)
+                .add(Items.ZOMBIE_HEAD)
+                .add(Items.CREEPER_HEAD)
+                .add(Items.PIGLIN_HEAD)
+                .add(Items.DRAGON_HEAD);
     }
 }

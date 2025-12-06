@@ -1,7 +1,7 @@
 package net.itskittyyoutube.kitty.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.itskittyyoutube.kitty.sound.TheBedrockSMPSounds;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -61,15 +61,15 @@ public class TheBedrockSMPItems {
 
     //Extra
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name), item);
     }
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
-        return Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name),
-                function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name)))));
+        return Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name),
+                function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name)))));
     }
     public static void registerItems() {
-        TheBedrockSMPRemastered.LOGGER.info("Registering Items for " + TheBedrockSMPRemastered.MOD_ID);
+        TheBedrockSMP.LOGGER.info("Registering Items for " + TheBedrockSMP.MOD_ID);
 
         //Creative Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {

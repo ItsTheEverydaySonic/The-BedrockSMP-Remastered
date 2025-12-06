@@ -1,7 +1,7 @@
 package net.itskittyyoutube.kitty.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.itskittyyoutube.kitty.world.tree.TheBedrockSMPSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
@@ -530,24 +530,24 @@ public class TheBedrockSMPBlocks {
 
     //Extra
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
-        Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name))));
+        Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name))));
         registerBlockItem(name, toRegister);
-        return Registry.register(Registries.BLOCK, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name), toRegister);
+        return Registry.register(Registries.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name), toRegister);
     }
 
     private static Block registerBlockWithoutBlockItem(String name, Function<AbstractBlock.Settings, Block> function) {
-        return Registry.register(Registries.BLOCK, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name),
-                function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name)))));
+        return Registry.register(Registries.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name),
+                function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name)))));
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name),
                 new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey()
-                        .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name)))));
+                        .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name)))));
     }
 
     public static void registerBlocks() {
-        TheBedrockSMPRemastered.LOGGER.info("Registering Mod Blocks for " + TheBedrockSMPRemastered.MOD_ID);
+        TheBedrockSMP.LOGGER.info("Registering Mod Blocks for " + TheBedrockSMP.MOD_ID);
 
         //Creative Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {

@@ -1,7 +1,7 @@
 package net.itskittyyoutube.kitty.util;
 
 import com.mojang.serialization.MapCodec;
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.minecraft.client.render.item.property.bool.BooleanProperties;
 import net.minecraft.client.render.item.property.bool.BooleanProperty;
 import net.minecraft.client.world.ClientWorld;
@@ -36,6 +36,6 @@ public record TheBedrockSMPBabyProperty() implements BooleanProperty {
     }
 
     public static void register() {
-        BooleanProperties.ID_MAPPER.put(Identifier.of(TheBedrockSMPRemastered.MOD_ID, "baby"), CODEC);
+        BooleanProperties.ID_MAPPER.put(Identifier.of(TheBedrockSMP.MOD_ID, "baby"), CODEC);
     }
 }

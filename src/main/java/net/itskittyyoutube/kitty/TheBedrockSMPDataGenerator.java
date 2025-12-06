@@ -24,7 +24,7 @@ public class TheBedrockSMPDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(TheBedrockSMPRegistryDataGenerator::new);
 
         final FabricDataGenerator.Pack small_axolotl_buckets = generator.createBuiltinResourcePack(Identifier.of(
-                TheBedrockSMPRemastered.MOD_ID,
+                TheBedrockSMP.MOD_ID,
                 TheBedrockSMPClient.PACK_ID
         ));
         small_axolotl_buckets.addProvider((FabricDataOutput output) -> new TheBedrockSMPModelProvider(output, true));

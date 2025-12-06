@@ -1,6 +1,6 @@
 package net.itskittyyoutube.kitty.sound;
 
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,31 +21,31 @@ public class TheBedrockSMPSounds {
     public static final SoundEvent EXPLORER = registerSoundEvent("explorer");
 
     public static final RegistryKey<JukeboxSong> THE_BYE_JUSTIN_HI_JUSTIN_RAP_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "bye_justin_hi_justin"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "bye_justin_hi_justin"));
     public static final RegistryKey<JukeboxSong> THE_TALE_OF_TOOTHLESS_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "the_tale_of_toothless"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "the_tale_of_toothless"));
     public static final RegistryKey<JukeboxSong> STEVE_LAVA_CHICKEN_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "steve_lava_chicken"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "steve_lava_chicken"));
     public static final RegistryKey<JukeboxSong> LAVA_TEARSSTEP_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "lava_tearsstep"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "lava_tearsstep"));
     public static final RegistryKey<JukeboxSong> TERRIFYING_TEARS_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "terrifying_tears"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "terrifying_tears"));
     public static final RegistryKey<JukeboxSong> BETTERSIDE_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "betterside"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "betterside"));
     public static final RegistryKey<JukeboxSong> DISC_12_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "12"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "12"));
     public static final RegistryKey<JukeboxSong> THE_BYE_JUSTIN_HI_JUSTIN_RAP_REMASTERED_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "bye_justin_hi_justin_remastered"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "bye_justin_hi_justin_remastered"));
     public static final RegistryKey<JukeboxSong> EXPLORER_KEY =
-            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMPRemastered.MOD_ID, "explorer"));
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TheBedrockSMP.MOD_ID, "explorer"));
 
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = Identifier.of(TheBedrockSMPRemastered.MOD_ID, name);
+        Identifier id = Identifier.of(TheBedrockSMP.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
     public static void registerSounds() {
-        TheBedrockSMPRemastered.LOGGER.info("Registering Sounds for " + TheBedrockSMPRemastered.MOD_ID);
+        TheBedrockSMP.LOGGER.info("Registering Sounds for " + TheBedrockSMP.MOD_ID);
     }
 }

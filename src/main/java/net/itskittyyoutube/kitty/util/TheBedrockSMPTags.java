@@ -1,6 +1,6 @@
 package net.itskittyyoutube.kitty.util;
 
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -11,15 +11,16 @@ public class TheBedrockSMPTags {
     public static class Blocks {
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name));
         }
     }
 
     public static class Items {
         public static final TagKey<Item> CHERRY_BIRCH_LOGS = createTag("cherry_birch_logs");
+        public static final TagKey<Item> HEADS = createTag("heads");
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMPRemastered.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name));
         }
     }
 }

@@ -847,7 +847,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', Items.REDSTONE)
                         .input('X', Items.QUARTZ)
-                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.QUARTZ))
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.SILVER_PLAY_BUTTON, 1)
                         .pattern("#X#")
@@ -855,7 +856,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', TheBedrockSMPItems.STEEL_INGOT)
                         .input('X', TheBedrockSMPItems.YOUTUBE_LOGO)
-                        .criterion(hasItem(TheBedrockSMPItems.STEEL_INGOT), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
+                        .criterion(hasItem(TheBedrockSMPItems.STEEL_INGOT), conditionsFromItem(TheBedrockSMPItems.STEEL_INGOT))
+                        .criterion(hasItem(TheBedrockSMPItems.YOUTUBE_LOGO), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.GOLDEN_PLAY_BUTTON, 1)
                         .pattern("#X#")
@@ -863,7 +865,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', Items.GOLD_INGOT)
                         .input('X', TheBedrockSMPItems.YOUTUBE_LOGO)
-                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                        .criterion(hasItem(TheBedrockSMPItems.YOUTUBE_LOGO), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.DIAMOND_PLAY_BUTTON, 1)
                         .pattern("###")
@@ -871,7 +874,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', Items.DIAMOND)
                         .input('X', TheBedrockSMPItems.YOUTUBE_LOGO)
-                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .criterion(hasItem(TheBedrockSMPItems.YOUTUBE_LOGO), conditionsFromItem(TheBedrockSMPItems.YOUTUBE_LOGO))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.STEEL_INGOT, 4)
                         .pattern("###")
@@ -879,7 +883,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', Items.GOLD_INGOT)
                         .input('X', Items.IRON_INGOT)
-                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                        .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.STEEL_ROD, 4)
                         .pattern("  #")
@@ -887,13 +892,15 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("#  ")
                         .input('#', TheBedrockSMPItems.STEEL_INGOT)
                         .input('X', Items.STICK)
-                        .criterion(hasItem(TheBedrockSMPItems.STEEL_INGOT), conditionsFromItem(Items.STICK))
+                        .criterion(hasItem(TheBedrockSMPItems.STEEL_INGOT), conditionsFromItem(TheBedrockSMPItems.STEEL_INGOT))
+                        .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.MONEY, 1)
                         .pattern("#X#")
                         .input('#', Items.EMERALD)
                         .input('X', TheBedrockSMPItems.REINFORCED_PAPER)
-                        .criterion(hasItem(Items.EMERALD), conditionsFromItem(TheBedrockSMPItems.REINFORCED_PAPER))
+                        .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                        .criterion(hasItem(TheBedrockSMPItems.REINFORCED_PAPER), conditionsFromItem(TheBedrockSMPItems.REINFORCED_PAPER))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.REINFORCED_PAPER, 4)
                         .pattern("###")
@@ -901,7 +908,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', Items.NETHERITE_INGOT)
                         .input('X', Items.PAPER)
-                        .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.PAPER))
+                        .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
+                        .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
                         .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, TheBedrockSMPItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP_REMASTERED, 1)
                         .pattern("###")
@@ -927,6 +935,28 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.PURPLE_DYE), conditionsFromItem(Items.PURPLE_DYE))
                         .criterion(hasItem(Items.LIME_DYE), conditionsFromItem(Items.LIME_DYE))
                         .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, TheBedrockSMPItems.BIG_STICK, 4)
+                        .pattern(" #")
+                        .pattern("# ")
+                        .input('#', Items.STICK)
+                        .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, Items.STICK, 4)
+                        .pattern("# ")
+                        .input('#', TheBedrockSMPItems.BIG_STICK)
+                        .criterion(hasItem(TheBedrockSMPItems.BIG_STICK), conditionsFromItem(TheBedrockSMPItems.BIG_STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, Items.BEDROCK, 4)
+                        .pattern("Z#Z")
+                        .pattern("#X#")
+                        .pattern("Z#Z")
+                        .input('#', Items.NETHERITE_BLOCK)
+                        .input('X', Items.NETHER_STAR)
+                        .input('Z', Items.DIAMOND)
+                        .criterion(hasItem(Items.NETHERITE_BLOCK), conditionsFromItem(Items.NETHERITE_BLOCK))
+                        .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
 
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, TheBedrockSMPBlocks.CHERRY_BIRCH_PLANKS, 4)
                         .input(TheBedrockSMPTags.Items.CHERRY_BIRCH_LOGS)
@@ -937,8 +967,8 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(TheBedrockSMPBlocks.CHERRY_BIRCH_PLANKS), conditionsFromItem(TheBedrockSMPBlocks.CHERRY_BIRCH_PLANKS))
                         .offerTo(exporter);
                 createShapeless(RecipeCategory.MISC, TheBedrockSMPItems.MUSIC_DISC_STEVE_LAVA_CHICKEN, 1)
-                        .input(Items.PLAYER_HEAD)
-                        .criterion(hasItem(Items.PLAYER_HEAD), conditionsFromItem(Items.PLAYER_HEAD))
+                        .input(TheBedrockSMPTags.Items.HEADS)
+                        .criterion(hasItem(Items.PLAYER_HEAD), conditionsFromTag(TheBedrockSMPTags.Items.HEADS))
                         .offerTo(exporter);
                 createShapeless(RecipeCategory.MISC, TheBedrockSMPItems.MUSIC_DISC_LAVA_TEARSSTEP, 1)
                         .input(Items.MUSIC_DISC_PIGSTEP)

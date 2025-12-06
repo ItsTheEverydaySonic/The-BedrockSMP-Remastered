@@ -1,7 +1,7 @@
 package net.itskittyyoutube.kitty.tab;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.itskittyyoutube.kitty.TheBedrockSMPRemastered;
+import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.itskittyyoutube.kitty.block.TheBedrockSMPBlocks;
 import net.itskittyyoutube.kitty.item.TheBedrockSMPItems;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class TheBedrockSMPCreativeTabs {
     public static final ItemGroup BEDROCKSMP_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "bedrocksmp"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "bedrocksmp"),
             FabricItemGroup.builder().icon(() -> new ItemStack(TheBedrockSMPItems.BEDROCKSMP_ICON))
                     .displayName(Text.translatable("creativetab.kitty.bedrocksmp"))
                     .entries((displayContext, entries) -> {
@@ -163,14 +163,6 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPBlocks.PINK_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.PINK_PRESSURE_PLATE);
                         entries.add(TheBedrockSMPBlocks.PINK_BUTTON);
-                        entries.add(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS);
-                        entries.add(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
-                        entries.add(TheBedrockSMPBlocks.STONE_DOOR);
-                        entries.add(TheBedrockSMPBlocks.STONE_TRAPDOOR);
-                        entries.add(TheBedrockSMPBlocks.BEDROCK_DOOR);
-                        entries.add(TheBedrockSMPBlocks.BEDROCK_TRAPDOOR);
-                        entries.add(TheBedrockSMPBlocks.OBSIDIAN_DOOR);
-                        entries.add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_LOG);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_WOOD);
                         entries.add(TheBedrockSMPBlocks.STRIPPED_CHERRY_BIRCH_LOG);
@@ -184,6 +176,14 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_PRESSURE_PLATE);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_BUTTON);
+                        entries.add(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS);
+                        entries.add(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
+                        entries.add(TheBedrockSMPBlocks.STONE_DOOR);
+                        entries.add(TheBedrockSMPBlocks.STONE_TRAPDOOR);
+                        entries.add(TheBedrockSMPBlocks.BEDROCK_DOOR);
+                        entries.add(TheBedrockSMPBlocks.BEDROCK_TRAPDOOR);
+                        entries.add(TheBedrockSMPBlocks.OBSIDIAN_DOOR);
+                        entries.add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
@@ -209,7 +209,7 @@ public class TheBedrockSMPCreativeTabs {
                     }).build());
 
     public static final ItemGroup MUSIC_DISC_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "music_discs"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "music_discs"),
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.MUSIC_DISC_13))
                     .displayName(Text.translatable("creativetab.kitty.music_discs"))
                     .entries((displayContext, entries) -> {
@@ -246,7 +246,7 @@ public class TheBedrockSMPCreativeTabs {
                     }).build());
 
     public static final ItemGroup WOOD_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "wood"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "wood"),
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.OAK_PLANKS))
                     .displayName(Text.translatable("creativetab.kitty.wood"))
                     .entries((displayContext, entries) -> {
@@ -338,7 +338,9 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(Items.DARK_OAK_FENCE);
                         entries.add(Items.DARK_OAK_FENCE_GATE);
                         entries.add(Items.DARK_OAK_DOOR);
+                        entries.add(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS);
                         entries.add(Items.DARK_OAK_TRAPDOOR);
+                        entries.add(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
                         entries.add(Items.DARK_OAK_PRESSURE_PLATE);
                         entries.add(Items.DARK_OAK_BUTTON);
                         entries.add(Items.MANGROVE_LOG);
@@ -569,7 +571,7 @@ public class TheBedrockSMPCreativeTabs {
                     }).build());
 
     public static final ItemGroup DOORS_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "doors"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "doors"),
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.OAK_DOOR))
                     .displayName(Text.translatable("creativetab.kitty.doors"))
                     .entries((displayContext, entries) -> {
@@ -619,7 +621,7 @@ public class TheBedrockSMPCreativeTabs {
                     }).build());
 
     public static final ItemGroup TRAPDOORS_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "trapdoors"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "trapdoors"),
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.OAK_TRAPDOOR))
                     .displayName(Text.translatable("creativetab.kitty.trapdoors"))
                     .entries((displayContext, entries) -> {
@@ -669,7 +671,7 @@ public class TheBedrockSMPCreativeTabs {
                     }).build());
 
     public static final ItemGroup YOUTUBE = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TheBedrockSMPRemastered.MOD_ID, "youtube"),
+            Identifier.of(TheBedrockSMP.MOD_ID, "youtube"),
             FabricItemGroup.builder().icon(() -> new ItemStack(TheBedrockSMPItems.YOUTUBE_LOGO))
                     .displayName(Text.translatable("creativetab.kitty.youtube"))
                     .entries((displayContext, entries) -> {
@@ -682,6 +684,6 @@ public class TheBedrockSMPCreativeTabs {
 
 
     public static void registerTabs() {
-        TheBedrockSMPRemastered.LOGGER.info("Registering Creative Tabs for " + TheBedrockSMPRemastered.MOD_ID);
+        TheBedrockSMP.LOGGER.info("Registering Creative Tabs for " + TheBedrockSMP.MOD_ID);
     }
 }

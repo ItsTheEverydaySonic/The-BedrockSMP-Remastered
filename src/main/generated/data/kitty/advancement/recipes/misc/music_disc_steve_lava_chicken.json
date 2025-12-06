@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:player_head"
+            "items": "#kitty:heads"
           }
         ]
       },
