@@ -1,5 +1,5 @@
 
-      Note 2025 @ItsTheEverydaySonicYT
+      Note 2025 @ItsKittyYouTube
 
 This is the sorce code for The-BedrockSMP Remastered.
 If you guys want to add to my mod feel free to download the code, just make sure to credit me and feel free to change the authors or just add yourself to it.
