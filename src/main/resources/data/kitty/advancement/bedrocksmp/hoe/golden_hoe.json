@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kitty:bedrocksmp/hoe/stone_hoe",
+  "parent": "kitty:bedrocksmp/hoe/copper_hoe",
   "criteria": {
     "hoe": {
       "trigger": "minecraft:inventory_changed",

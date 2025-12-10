@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "kitty:corruptionite_ingot",
+  "base": "minecraft:netherite_axe",
+  "result": {
+    "id": "kitty:corruptionite_axe"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

@@ -117,5 +117,6 @@ public class TheBedrockSMP implements ModInitializer {
         FlammableBlockRegistry.getDefaultInstance().add(TheBedrockSMPBlocks.MAGENTA_STAIRS, 5, 20);
         FlammableBlockRegistry.getDefaultInstance().add(TheBedrockSMPBlocks.PINK_STAIRS, 5, 20);
         FlammableBlockRegistry.getDefaultInstance().add(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES, 30, 60);
+        //FlammableBlockRegistry.getDefaultInstance().add(TheBedrockSMPBlocks.SHELFSHELF, 30, 20);
     }
 }

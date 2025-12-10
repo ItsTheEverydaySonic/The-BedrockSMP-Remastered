@@ -192,5 +192,7 @@ public class TheBedrockSMPLootTableProvider extends FabricBlockLootTableProvider
 
         addDrop(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES, leavesDrops(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES,
                 TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING, 0.005F, 0.0055555557F, 0.00625F, 0.008333334F, 0.025F));
+
+        //addDrop(TheBedrockSMPBlocks.SHELFSHELF);
     }
 }

@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kitty:bedrocksmp/axe/stone_axe",
+  "parent": "kitty:bedrocksmp/axe/copper_axe",
   "criteria": {
     "axe": {
       "trigger": "minecraft:inventory_changed",

@@ -527,6 +527,10 @@ public class TheBedrockSMPBlocks {
                     .noCollision().ticksRandomly().breakInstantly()
                     .sounds(BlockSoundGroup.CHERRY_SAPLING).pistonBehavior(PistonBehavior.DESTROY)));
 
+    //Shelves [NEEDS WORK]
+    //public static final Block SHELFSHELF = registerBlock("shelfshelf",
+            //properties -> new ShelfBlock(properties.mapColor(MapColor.BLUE).instrument(NoteBlockInstrument.BASS)
+                    //.strength(2.0F, 3.0F).sounds(BlockSoundGroup.SHELF).burnable()));
 
     //Extra
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {

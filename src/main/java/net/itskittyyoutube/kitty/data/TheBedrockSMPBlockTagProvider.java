@@ -200,5 +200,8 @@ public class TheBedrockSMPBlockTagProvider extends FabricTagProvider.BlockTagPro
                 .add(TheBedrockSMPBlocks.CHERRY_BIRCH_WOOD)
                 .add(TheBedrockSMPBlocks.STRIPPED_CHERRY_BIRCH_LOG)
                 .add(TheBedrockSMPBlocks.STRIPPED_CHERRY_BIRCH_WOOD);
+
+        //valueLookupBuilder(BlockTags.WOODEN_SHELVES)
+                //.add(TheBedrockSMPBlocks.SHELFSHELF);
     }
 }

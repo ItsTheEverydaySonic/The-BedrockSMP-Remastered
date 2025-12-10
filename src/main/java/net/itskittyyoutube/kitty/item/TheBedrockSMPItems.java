@@ -2,9 +2,12 @@ package net.itskittyyoutube.kitty.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.itskittyyoutube.kitty.TheBedrockSMP;
+import net.itskittyyoutube.kitty.material.TheBedrockSMPArmorMaterials;
+import net.itskittyyoutube.kitty.material.TheBedrockSMPToolMaterials;
 import net.itskittyyoutube.kitty.sound.TheBedrockSMPSounds;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
+import net.minecraft.item.equipment.ArmorMaterials;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -58,6 +61,74 @@ public class TheBedrockSMPItems {
             settings -> new Item(settings.maxCount(64).fireproof()));
     public static final Item MONEY = registerItem("money",
             settings -> new Item(settings.maxCount(64)));
+    public static final Item NETHERITE_ROD = registerItem("netherite_rod",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item STEEL_UPGRADE_SMITHING_TEMPLATE = registerItem("steel_upgrade_smithing_template",
+            SmithingTemplateItem::of);
+    public static final Item DIAMARITE_INGOT = registerItem("diamarite_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item CORRUPTIONITE_INGOT = registerItem("corruptionite_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item DIAMOND_INGOT = registerItem("diamond_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item AMETHYST_INGOT = registerItem("amethyst_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item CHARD_INGOT = registerItem("chard_ingot",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item DIAMARITE = registerItem("diamarite",
+            settings -> new Item(settings.maxCount(64)));
+    public static final Item BURNT_INGOT = registerItem("burnt_ingot",
+            settings -> new Item(settings.maxCount(64)));
+
+    //Tools
+    public static final Item STEEL_SWORD = registerItem("steel_sword",
+            setting -> new Item(setting.sword(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, 3.0F, -2.4F)));
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
+            setting -> new ShovelItem(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, 1.5F, -3.0F, setting));
+    public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
+            setting -> new Item(setting.pickaxe(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, 1.0F, -2.8F)));
+    public static final Item STEEL_AXE = registerItem("steel_axe",
+            setting -> new AxeItem(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, 6.0F, -3.1F, setting));
+    public static final Item STEEL_HOE = registerItem("steel_hoe",
+            setting -> new HoeItem(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, -2.0F, -1.0F, setting));
+    public static final Item KATARA_KNIFE = registerItem("katara_knife",
+            setting -> new Item(setting.sword(TheBedrockSMPToolMaterials.STEEL_EQUIPMENT, 2.0F, -2.4F)));
+    public static final Item DIAMARITE_SWORD = registerItem("diamarite_sword",
+            setting -> new Item(setting.sword(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 3.0F, -2.4F).fireproof()));
+    public static final Item DIAMARITE_SHOVEL = registerItem("diamarite_shovel",
+            setting -> new ShovelItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 1.5F, -3.0F, setting.fireproof()));
+    public static final Item DIAMARITE_PICKAXE = registerItem("diamarite_pickaxe",
+            setting -> new Item(setting.pickaxe(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 1.0F, -2.8F).fireproof()));
+    public static final Item DIAMARITE_AXE = registerItem("diamarite_axe",
+            setting -> new AxeItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 5.0F, -3.0F, setting.fireproof()));
+    public static final Item DIAMARITE_HOE = registerItem("diamarite_hoe",
+            setting -> new HoeItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, -4.0F, 0.0F, setting.fireproof()));
+    public static final Item CORRUPTIONITE_SWORD = registerItem("corruptionite_sword",
+            setting -> new Item(setting.sword(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 3.0F, -2.4F).fireproof()));
+    public static final Item CORRUPTIONITE_SHOVEL = registerItem("corruptionite_shovel",
+            setting -> new ShovelItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 1.5F, -3.0F, setting.fireproof()));
+    public static final Item CORRUPTIONITE_PICKAXE = registerItem("corruptionite_pickaxe",
+            setting -> new Item(setting.pickaxe(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 1.0F, -2.8F).fireproof()));
+    public static final Item CORRUPTIONITE_AXE = registerItem("corruptionite_axe",
+            setting -> new AxeItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, 5.0F, -3.0F, setting.fireproof()));
+    public static final Item CORRUPTIONITE_HOE = registerItem("corruptionite_hoe",
+            setting -> new HoeItem(TheBedrockSMPToolMaterials.NETHERITE_EQUIPMENT, -4.0F, 0.0F, setting.fireproof()));
+    public static final Item DIAMARITE_HELMET = registerItem("diamarite_helmet",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.DIAMARITE, EquipmentType.HELMET).fireproof()));
+    public static final Item DIAMARITE_CHESTPLATE = registerItem("diamarite_chestplate",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.DIAMARITE, EquipmentType.CHESTPLATE).fireproof()));
+    public static final Item DIAMARITE_LEGGINGS = registerItem("diamarite_leggings",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.DIAMARITE, EquipmentType.LEGGINGS).fireproof()));
+    public static final Item DIAMARITE_BOOTS = registerItem("diamarite_boots",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.DIAMARITE, EquipmentType.BOOTS).fireproof()));
+    public static final Item CORRUPTIONITE_HELMET = registerItem("corruptionite_helmet",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.CORRUPTIONITE, EquipmentType.HELMET).fireproof()));
+    public static final Item CORRUPTIONITE_CHESTPLATE = registerItem("corruptionite_chestplate",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.CORRUPTIONITE, EquipmentType.CHESTPLATE).fireproof()));
+    public static final Item CORRUPTIONITE_LEGGINGS = registerItem("corruptionite_leggings",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.CORRUPTIONITE, EquipmentType.LEGGINGS).fireproof()));
+    public static final Item CORRUPTIONITE_BOOTS = registerItem("corruptionite_boots",
+            setting -> new Item(setting.armor(TheBedrockSMPArmorMaterials.CORRUPTIONITE, EquipmentType.BOOTS).fireproof()));
 
     //Extra
     private static Item registerItem(String name, Item item) {
@@ -81,15 +152,50 @@ public class TheBedrockSMPItems {
             entries.add(MUSIC_DISC_12);
             entries.add(MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP_REMASTERED);
             entries.add(MUSIC_DISC_EXPLORER);
+            entries.add(STEEL_SHOVEL);
+            entries.add(STEEL_PICKAXE);
+            entries.add(STEEL_AXE);
+            entries.add(STEEL_HOE);
+            entries.add(DIAMARITE_SHOVEL);
+            entries.add(DIAMARITE_PICKAXE);
+            entries.add(DIAMARITE_AXE);
+            entries.add(DIAMARITE_HOE);
+            entries.add(CORRUPTIONITE_SHOVEL);
+            entries.add(CORRUPTIONITE_PICKAXE);
+            entries.add(CORRUPTIONITE_AXE);
+            entries.add(CORRUPTIONITE_HOE);
+            entries.add(MONEY);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(BIG_STICK);
             entries.add(CURSED_EMERALD);
             entries.add(STEEL_INGOT);
-            entries.add(STEEL_ROD);
+            entries.add(DIAMARITE_INGOT);
+            entries.add(DIAMARITE);
+            entries.add(CORRUPTIONITE_INGOT);
+            entries.add(DIAMOND_INGOT);
+            entries.add(AMETHYST_INGOT);
+            entries.add(NETHERITE_ROD);
             entries.add(REINFORCED_PAPER);
-            entries.add(MONEY);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(STEEL_SWORD);
+            fabricItemGroupEntries.add(STEEL_AXE);
+            fabricItemGroupEntries.add(KATARA_KNIFE);
+            fabricItemGroupEntries.add(DIAMARITE_SWORD);
+            fabricItemGroupEntries.add(DIAMARITE_AXE);
+            fabricItemGroupEntries.add(CORRUPTIONITE_SWORD);
+            fabricItemGroupEntries.add(CORRUPTIONITE_AXE);
+            fabricItemGroupEntries.add(DIAMARITE_HELMET);
+            fabricItemGroupEntries.add(DIAMARITE_CHESTPLATE);
+            fabricItemGroupEntries.add(DIAMARITE_LEGGINGS);
+            fabricItemGroupEntries.add(DIAMARITE_BOOTS);
+            fabricItemGroupEntries.add(CORRUPTIONITE_HELMET);
+            fabricItemGroupEntries.add(CORRUPTIONITE_CHESTPLATE);
+            fabricItemGroupEntries.add(CORRUPTIONITE_LEGGINGS);
+            fabricItemGroupEntries.add(CORRUPTIONITE_BOOTS);
         });
     }
 }

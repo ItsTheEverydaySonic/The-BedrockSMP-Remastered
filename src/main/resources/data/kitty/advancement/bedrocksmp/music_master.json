@@ -270,6 +270,26 @@
           }
         ]
       }
+    },
+    "disc_justin_rap_remastered": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kitty:music_disc_bye_justin_hi_justin_remastered"
+          }
+        ]
+      }
+    },
+    "disc_explorer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kitty:music_disc_explorer"
+          }
+        ]
+      }
     }
   },
   "display": {
@@ -286,6 +306,12 @@
     }
   },
   "requirements": [
+    [
+      "disc_explorer"
+    ],
+    [
+      "disc_justin_rap_remastered"
+    ],
     [
       "disc_betterside"
     ],

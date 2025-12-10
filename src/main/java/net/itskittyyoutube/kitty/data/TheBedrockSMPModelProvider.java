@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.itskittyyoutube.kitty.TheBedrockSMP;
 import net.itskittyyoutube.kitty.block.TheBedrockSMPBlocks;
 import net.itskittyyoutube.kitty.item.TheBedrockSMPItems;
+import net.itskittyyoutube.kitty.material.TheBedrockSMPArmorMaterials;
 import net.itskittyyoutube.kitty.util.TheBedrockSMPBabyProperty;
 import net.minecraft.client.data.*;
 import net.minecraft.client.render.item.model.ItemModel;
@@ -15,6 +16,7 @@ import net.minecraft.data.DataWriter;
 import net.minecraft.entity.passive.AxolotlEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.item.equipment.ArmorMaterials;
 import net.minecraft.util.Identifier;
 
 import java.util.ArrayList;
@@ -206,6 +208,8 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSingleton(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES, TexturedModel.LEAVES);
         blockStateModelGenerator.registerTintableCrossBlockState(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
+        //blockStateModelGenerator.registerShelf(TheBedrockSMPBlocks.SHELFSHELF, TheBedrockSMPBlocks.BLUE_PLANKS);
     }
 
     @Override
@@ -227,13 +231,48 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         itemModelGenerator.register(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(TheBedrockSMPItems.STEEL_INGOT, Models.GENERATED);
-        itemModelGenerator.register(TheBedrockSMPItems.STEEL_ROD, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_ROD, Models.HANDHELD);
         itemModelGenerator.register(TheBedrockSMPItems.REINFORCED_PAPER, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.MONEY, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.YOUTUBE_LOGO, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.SILVER_PLAY_BUTTON, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.GOLDEN_PLAY_BUTTON, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.DIAMOND_PLAY_BUTTON, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.NETHERITE_ROD, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMOND_INGOT, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.AMETHYST_INGOT, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.CHARD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(TheBedrockSMPItems.BURNT_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.STEEL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.KATARA_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.DIAMARITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(TheBedrockSMPItems.CORRUPTIONITE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.DIAMARITE_HELMET, TheBedrockSMPArmorMaterials.DIAMARITE_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.DIAMARITE_CHESTPLATE, TheBedrockSMPArmorMaterials.DIAMARITE_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.DIAMARITE_LEGGINGS, TheBedrockSMPArmorMaterials.DIAMARITE_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.DIAMARITE_BOOTS, TheBedrockSMPArmorMaterials.DIAMARITE_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.CORRUPTIONITE_HELMET, TheBedrockSMPArmorMaterials.CORRUPTIONITE_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.CORRUPTIONITE_CHESTPLATE, TheBedrockSMPArmorMaterials.CORRUPTIONITE_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.CORRUPTIONITE_LEGGINGS, TheBedrockSMPArmorMaterials.CORRUPTIONITE_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(TheBedrockSMPItems.CORRUPTIONITE_BOOTS, TheBedrockSMPArmorMaterials.CORRUPTIONITE_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
 
         Item item = Items.AXOLOTL_BUCKET;
         Identifier modelId = ModelIds.getItemModelId(item);

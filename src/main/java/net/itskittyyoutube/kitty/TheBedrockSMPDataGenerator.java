@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.itskittyyoutube.kitty.data.*;
+import net.itskittyyoutube.kitty.material.TheBedrockSMPTrimMaterials;
 import net.itskittyyoutube.kitty.world.TheBedrockSMPConfiguredFeatures;
 import net.itskittyyoutube.kitty.world.TheBedrockSMPPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
@@ -31,6 +32,8 @@ public class TheBedrockSMPDataGenerator implements DataGeneratorEntrypoint {
     }
     @Override
     public void buildRegistry(RegistryBuilder registryBuilder) {
+        registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, TheBedrockSMPTrimMaterials::bootstrap);
+
         registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, TheBedrockSMPConfiguredFeatures::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, TheBedrockSMPPlacedFeatures::bootstrap);
     }

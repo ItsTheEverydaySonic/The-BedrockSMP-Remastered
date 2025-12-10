@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kitty:bedrocksmp/shovel/stone_shovel",
+  "parent": "kitty:bedrocksmp/shovel/copper_shovel",
   "criteria": {
     "shovel": {
       "trigger": "minecraft:inventory_changed",

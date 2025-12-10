@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kitty:bedrocksmp/pickaxe/stone_pickaxe",
+  "parent": "kitty:bedrocksmp/pickaxe/copper_pickaxe",
   "criteria": {
     "pickaxe": {
       "trigger": "minecraft:inventory_changed",

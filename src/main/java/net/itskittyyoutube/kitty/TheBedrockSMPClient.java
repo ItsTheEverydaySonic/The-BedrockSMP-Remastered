@@ -22,6 +22,7 @@ public final class TheBedrockSMPClient implements ClientModInitializer {
     public static final String PACK_ID10 = "bedrocksmp";
     public static final String PACK_ID11 = "bedrocksmp_icons";
     public static final String PACK_ID12 = "fresh_actions";
+    public static final String PACK_ID13 = "fresh_player_actions";
 
     @Override
     public void onInitializeClient() {
@@ -97,6 +98,11 @@ public final class TheBedrockSMPClient implements ClientModInitializer {
                 TheBedrockSMP.MOD_ID,
                 PACK_ID12,
                 Text.translatable("pack.kitty.fresh_actions")
+        );
+        TheBedrockSMPBuiltinResourcePack.register(
+                TheBedrockSMP.MOD_ID,
+                PACK_ID13,
+                Text.translatable("pack.kitty.fresh_player_actions")
         );
     }
 }

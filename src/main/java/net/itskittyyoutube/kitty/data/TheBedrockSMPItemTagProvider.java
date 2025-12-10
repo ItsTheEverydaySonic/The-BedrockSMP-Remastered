@@ -272,5 +272,90 @@ public class TheBedrockSMPItemTagProvider extends FabricTagProvider.ItemTagProvi
                 .add(Items.CREEPER_HEAD)
                 .add(Items.PIGLIN_HEAD)
                 .add(Items.DRAGON_HEAD);
+
+        valueLookupBuilder(TheBedrockSMPTags.Items.STEEL_EQUIPMENT_REPAIR)
+                .add(TheBedrockSMPItems.STEEL_INGOT)
+                .add(Items.IRON_INGOT)
+                .add(Items.GOLD_INGOT);
+
+        valueLookupBuilder(ItemTags.SWORDS)
+                .add(TheBedrockSMPItems.STEEL_SWORD)
+                .add(TheBedrockSMPItems.DIAMARITE_SWORD)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_SWORD)
+                .add(TheBedrockSMPItems.KATARA_KNIFE);
+
+        valueLookupBuilder(ItemTags.SHOVELS)
+                .add(TheBedrockSMPItems.STEEL_SHOVEL)
+                .add(TheBedrockSMPItems.DIAMARITE_SHOVEL)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_SHOVEL);
+
+        valueLookupBuilder(ItemTags.PICKAXES)
+                .add(TheBedrockSMPItems.STEEL_PICKAXE)
+                .add(TheBedrockSMPItems.DIAMARITE_PICKAXE)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_PICKAXE);
+
+        valueLookupBuilder(ItemTags.AXES)
+                .add(TheBedrockSMPItems.STEEL_AXE)
+                .add(TheBedrockSMPItems.DIAMARITE_AXE)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_AXE);
+
+        valueLookupBuilder(ItemTags.HOES)
+                .add(TheBedrockSMPItems.STEEL_HOE)
+                .add(TheBedrockSMPItems.DIAMARITE_HOE)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_HOE);
+
+        valueLookupBuilder(ItemTags.TRIM_MATERIALS)
+                .add(TheBedrockSMPItems.STEEL_INGOT);
+
+        valueLookupBuilder(TheBedrockSMPTags.Items.NETHERITE_EQUIPMENT_REPAIR)
+                .add(Items.DIAMOND)
+                .add(Items.NETHERITE_INGOT)
+                .add(TheBedrockSMPItems.DIAMARITE_INGOT)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_INGOT)
+                .add(TheBedrockSMPItems.DIAMOND_INGOT)
+                .add(TheBedrockSMPItems.DIAMARITE);
+
+        valueLookupBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(TheBedrockSMPItems.DIAMARITE_HELMET)
+                .add(TheBedrockSMPItems.DIAMARITE_CHESTPLATE)
+                .add(TheBedrockSMPItems.DIAMARITE_LEGGINGS)
+                .add(TheBedrockSMPItems.DIAMARITE_BOOTS)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_HELMET)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_CHESTPLATE)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_LEGGINGS)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_BOOTS);
+
+        valueLookupBuilder(ItemTags.HEAD_ARMOR)
+                .add(TheBedrockSMPItems.DIAMARITE_HELMET)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_HELMET);
+
+        valueLookupBuilder(ItemTags.CHEST_ARMOR)
+                .add(TheBedrockSMPItems.DIAMARITE_CHESTPLATE)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_CHESTPLATE);
+
+        valueLookupBuilder(ItemTags.LEG_ARMOR)
+                .add(TheBedrockSMPItems.DIAMARITE_LEGGINGS)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_LEGGINGS);
+
+        valueLookupBuilder(ItemTags.FOOT_ARMOR)
+                .add(TheBedrockSMPItems.DIAMARITE_BOOTS)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_BOOTS);
+
+        valueLookupBuilder(TheBedrockSMPTags.Items.INGOTS)
+                .add(Items.IRON_INGOT)
+                .add(Items.GOLD_INGOT)
+                .add(Items.COPPER_INGOT)
+                .add(Items.NETHERITE_INGOT)
+                .add(TheBedrockSMPItems.STEEL_INGOT)
+                .add(TheBedrockSMPItems.DIAMARITE_INGOT)
+                .add(TheBedrockSMPItems.CORRUPTIONITE_INGOT)
+                .add(TheBedrockSMPItems.DIAMOND_INGOT)
+                .add(TheBedrockSMPItems.AMETHYST_INGOT);
+
+        valueLookupBuilder(ItemTags.DIAMOND_TOOL_MATERIALS)
+                .add(TheBedrockSMPItems.DIAMOND_INGOT);
+
+        //valueLookupBuilder(ItemTags.WOODEN_SHELVES)
+                //.add(TheBedrockSMPBlocks.SHELFSHELF.asItem());
     }
 }

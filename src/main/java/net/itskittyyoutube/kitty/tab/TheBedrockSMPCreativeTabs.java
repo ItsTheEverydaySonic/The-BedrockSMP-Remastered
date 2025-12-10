@@ -185,6 +185,7 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPBlocks.OBSIDIAN_DOOR);
                         entries.add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES);
+                        //entries.add(TheBedrockSMPBlocks.SHELFSHELF);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_STEVE_LAVA_CHICKEN);
@@ -197,6 +198,13 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPItems.MONEY);
                         entries.add(TheBedrockSMPItems.REINFORCED_PAPER);
                         entries.add(TheBedrockSMPItems.STEEL_INGOT);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_INGOT);
+                        entries.add(TheBedrockSMPItems.DIAMARITE);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_INGOT);
+                        entries.add(TheBedrockSMPItems.DIAMOND_INGOT);
+                        entries.add(TheBedrockSMPItems.AMETHYST_INGOT);
+                        entries.add(TheBedrockSMPItems.BURNT_INGOT);
+                        entries.add(TheBedrockSMPItems.CHARD_INGOT);
                         entries.add(TheBedrockSMPItems.STEEL_ROD);
                         entries.add(TheBedrockSMPItems.YOUTUBE_LOGO);
                         entries.add(TheBedrockSMPItems.SILVER_PLAY_BUTTON);
@@ -205,6 +213,31 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPItems.BIG_STICK);
                         entries.add(TheBedrockSMPItems.CURSED_EMERALD);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING);
+                        entries.add(TheBedrockSMPItems.STEEL_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(TheBedrockSMPItems.STEEL_SWORD);
+                        entries.add(TheBedrockSMPItems.STEEL_SHOVEL);
+                        entries.add(TheBedrockSMPItems.STEEL_PICKAXE);
+                        entries.add(TheBedrockSMPItems.STEEL_AXE);
+                        entries.add(TheBedrockSMPItems.STEEL_HOE);
+                        entries.add(TheBedrockSMPItems.KATARA_KNIFE);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_HELMET);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_CHESTPLATE);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_LEGGINGS);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_BOOTS);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_SWORD);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_SHOVEL);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_PICKAXE);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_AXE);
+                        entries.add(TheBedrockSMPItems.DIAMARITE_HOE);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_HELMET);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_CHESTPLATE);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_LEGGINGS);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_BOOTS);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_SWORD);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_SHOVEL);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_PICKAXE);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_AXE);
+                        entries.add(TheBedrockSMPItems.CORRUPTIONITE_HOE);
 
                     }).build());
 
