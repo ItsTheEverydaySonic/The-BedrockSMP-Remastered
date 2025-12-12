@@ -1,10 +1,10 @@
 
       Note 2024 @ItsKittyYouTube
 
-This is the sorce code for The-BedrockSMP Remastered.
+This is the source code for The-BedrockSMP.
 If you guys want to add to my mod feel free to download the code,
 just make sure to credit me and feel free to change the authors or just add yourself to it.
-I used "IntelliJ IDEA Community Edition 2025.2" to make this mod.
+I used "IntelliJ IDEA Community Edition 2025.1.1.1" to make this mod.
 
 Old source code for versions 1.21.7 and below: https://github.com/ItsTheEverydaySonic/The-BedrockSMP
 
