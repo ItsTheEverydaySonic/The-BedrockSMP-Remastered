@@ -49,10 +49,10 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.STONE_DOOR);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.BEDROCK_DOOR);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.OBSIDIAN_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.CHERRY_BIRCH_TRAPDOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.STONE_TRAPDOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.BEDROCK_TRAPDOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.CHERRY_BIRCH_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.STONE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.BEDROCK_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
         blockStateModelGenerator.registerSimpleCubeAll(TheBedrockSMPBlocks.PLANKS_TEMPLATE);
         BlockStateModelGenerator.BlockTexturePool whitePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.WHITE_PLANKS);
         whitePlanksPool.stairs(TheBedrockSMPBlocks.WHITE_STAIRS);
@@ -62,7 +62,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         whitePlanksPool.fence(TheBedrockSMPBlocks.WHITE_FENCE);
         whitePlanksPool.fenceGate(TheBedrockSMPBlocks.WHITE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.WHITE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.WHITE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.WHITE_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool lightGrayPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.LIGHT_GRAY_PLANKS);
         lightGrayPlanksPool.stairs(TheBedrockSMPBlocks.LIGHT_GRAY_STAIRS);
         lightGrayPlanksPool.slab(TheBedrockSMPBlocks.LIGHT_GRAY_SLAB);
@@ -71,7 +71,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         lightGrayPlanksPool.fence(TheBedrockSMPBlocks.LIGHT_GRAY_FENCE);
         lightGrayPlanksPool.fenceGate(TheBedrockSMPBlocks.LIGHT_GRAY_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.LIGHT_GRAY_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.LIGHT_GRAY_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.LIGHT_GRAY_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool grayPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.GRAY_PLANKS);
         grayPlanksPool.stairs(TheBedrockSMPBlocks.GRAY_STAIRS);
         grayPlanksPool.slab(TheBedrockSMPBlocks.GRAY_SLAB);
@@ -80,7 +80,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         grayPlanksPool.fence(TheBedrockSMPBlocks.GRAY_FENCE);
         grayPlanksPool.fenceGate(TheBedrockSMPBlocks.GRAY_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.GRAY_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.GRAY_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.GRAY_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool blackPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.BLACK_PLANKS);
         blackPlanksPool.stairs(TheBedrockSMPBlocks.BLACK_STAIRS);
         blackPlanksPool.slab(TheBedrockSMPBlocks.BLACK_SLAB);
@@ -89,7 +89,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         blackPlanksPool.fence(TheBedrockSMPBlocks.BLACK_FENCE);
         blackPlanksPool.fenceGate(TheBedrockSMPBlocks.BLACK_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.BLACK_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.BLACK_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.BLACK_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool brownPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.BROWN_PLANKS);
         brownPlanksPool.stairs(TheBedrockSMPBlocks.BROWN_STAIRS);
         brownPlanksPool.slab(TheBedrockSMPBlocks.BROWN_SLAB);
@@ -98,7 +98,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         brownPlanksPool.fence(TheBedrockSMPBlocks.BROWN_FENCE);
         brownPlanksPool.fenceGate(TheBedrockSMPBlocks.BROWN_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.BROWN_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.BROWN_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.BROWN_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool redPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.RED_PLANKS);
         redPlanksPool.stairs(TheBedrockSMPBlocks.RED_STAIRS);
         redPlanksPool.slab(TheBedrockSMPBlocks.RED_SLAB);
@@ -107,7 +107,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         redPlanksPool.fence(TheBedrockSMPBlocks.RED_FENCE);
         redPlanksPool.fenceGate(TheBedrockSMPBlocks.RED_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.RED_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.RED_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.RED_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool orangePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.ORANGE_PLANKS);
         orangePlanksPool.stairs(TheBedrockSMPBlocks.ORANGE_STAIRS);
         orangePlanksPool.slab(TheBedrockSMPBlocks.ORANGE_SLAB);
@@ -116,7 +116,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         orangePlanksPool.fence(TheBedrockSMPBlocks.ORANGE_FENCE);
         orangePlanksPool.fenceGate(TheBedrockSMPBlocks.ORANGE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.ORANGE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.ORANGE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.ORANGE_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool yellowPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.YELLOW_PLANKS);
         yellowPlanksPool.stairs(TheBedrockSMPBlocks.YELLOW_STAIRS);
         yellowPlanksPool.slab(TheBedrockSMPBlocks.YELLOW_SLAB);
@@ -125,7 +125,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         yellowPlanksPool.fence(TheBedrockSMPBlocks.YELLOW_FENCE);
         yellowPlanksPool.fenceGate(TheBedrockSMPBlocks.YELLOW_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.YELLOW_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.YELLOW_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.YELLOW_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool limePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.LIME_PLANKS);
         limePlanksPool.stairs(TheBedrockSMPBlocks.LIME_STAIRS);
         limePlanksPool.slab(TheBedrockSMPBlocks.LIME_SLAB);
@@ -134,7 +134,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         limePlanksPool.fence(TheBedrockSMPBlocks.LIME_FENCE);
         limePlanksPool.fenceGate(TheBedrockSMPBlocks.LIME_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.LIME_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.LIME_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.LIME_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool greenPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.GREEN_PLANKS);
         greenPlanksPool.stairs(TheBedrockSMPBlocks.GREEN_STAIRS);
         greenPlanksPool.slab(TheBedrockSMPBlocks.GREEN_SLAB);
@@ -143,7 +143,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         greenPlanksPool.fence(TheBedrockSMPBlocks.GREEN_FENCE);
         greenPlanksPool.fenceGate(TheBedrockSMPBlocks.GREEN_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.GREEN_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.GREEN_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.GREEN_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool cyanPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.CYAN_PLANKS);
         cyanPlanksPool.stairs(TheBedrockSMPBlocks.CYAN_STAIRS);
         cyanPlanksPool.slab(TheBedrockSMPBlocks.CYAN_SLAB);
@@ -152,7 +152,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         cyanPlanksPool.fence(TheBedrockSMPBlocks.CYAN_FENCE);
         cyanPlanksPool.fenceGate(TheBedrockSMPBlocks.CYAN_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.CYAN_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.CYAN_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.CYAN_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool lightBluePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.LIGHT_BLUE_PLANKS);
         lightBluePlanksPool.stairs(TheBedrockSMPBlocks.LIGHT_BLUE_STAIRS);
         lightBluePlanksPool.slab(TheBedrockSMPBlocks.LIGHT_BLUE_SLAB);
@@ -161,7 +161,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         lightBluePlanksPool.fence(TheBedrockSMPBlocks.LIGHT_BLUE_FENCE);
         lightBluePlanksPool.fenceGate(TheBedrockSMPBlocks.LIGHT_BLUE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.LIGHT_BLUE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.LIGHT_BLUE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.LIGHT_BLUE_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool bluePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.BLUE_PLANKS);
         bluePlanksPool.stairs(TheBedrockSMPBlocks.BLUE_STAIRS);
         bluePlanksPool.slab(TheBedrockSMPBlocks.BLUE_SLAB);
@@ -170,7 +170,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         bluePlanksPool.fence(TheBedrockSMPBlocks.BLUE_FENCE);
         bluePlanksPool.fenceGate(TheBedrockSMPBlocks.BLUE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.BLUE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.BLUE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.BLUE_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool purplePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.PURPLE_PLANKS);
         purplePlanksPool.stairs(TheBedrockSMPBlocks.PURPLE_STAIRS);
         purplePlanksPool.slab(TheBedrockSMPBlocks.PURPLE_SLAB);
@@ -179,7 +179,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         purplePlanksPool.fence(TheBedrockSMPBlocks.PURPLE_FENCE);
         purplePlanksPool.fenceGate(TheBedrockSMPBlocks.PURPLE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.PURPLE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.PURPLE_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.PURPLE_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool magentaPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.MAGENTA_PLANKS);
         magentaPlanksPool.stairs(TheBedrockSMPBlocks.MAGENTA_STAIRS);
         magentaPlanksPool.slab(TheBedrockSMPBlocks.MAGENTA_SLAB);
@@ -188,7 +188,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         magentaPlanksPool.fence(TheBedrockSMPBlocks.MAGENTA_FENCE);
         magentaPlanksPool.fenceGate(TheBedrockSMPBlocks.MAGENTA_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.MAGENTA_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.MAGENTA_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.MAGENTA_TRAPDOOR);
         BlockStateModelGenerator.BlockTexturePool pinkPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TheBedrockSMPBlocks.PINK_PLANKS);
         pinkPlanksPool.stairs(TheBedrockSMPBlocks.PINK_STAIRS);
         pinkPlanksPool.slab(TheBedrockSMPBlocks.PINK_SLAB);
@@ -197,9 +197,9 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         pinkPlanksPool.fence(TheBedrockSMPBlocks.PINK_FENCE);
         pinkPlanksPool.fenceGate(TheBedrockSMPBlocks.PINK_FENCE_GATE);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.PINK_DOOR);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.PINK_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.PINK_TRAPDOOR);
         blockStateModelGenerator.registerDoor(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS);
-        blockStateModelGenerator.registerTrapdoor(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
+        blockStateModelGenerator.registerOrientableTrapdoor(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
 
         blockStateModelGenerator.createLogTexturePool(TheBedrockSMPBlocks.CHERRY_BIRCH_LOG).log(TheBedrockSMPBlocks.CHERRY_BIRCH_LOG)
                 .wood(TheBedrockSMPBlocks.CHERRY_BIRCH_WOOD);

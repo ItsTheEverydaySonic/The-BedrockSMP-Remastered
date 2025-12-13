@@ -23,9 +23,6 @@
     "main": [
       "net.itskittyyoutube.kitty.TheBedrockSMP"
     ],
-    "terrablender": [
-      "net.itskittyyoutube.kitty.TheBedrockSMPTerrablenderAPI"
-    ],
     "fabric-datagen": [
       "net.itskittyyoutube.kitty.TheBedrockSMPDataGenerator"
     ],
