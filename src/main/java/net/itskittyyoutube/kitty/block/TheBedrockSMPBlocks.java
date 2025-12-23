@@ -532,6 +532,14 @@ public class TheBedrockSMPBlocks {
             //properties -> new ShelfBlock(properties.mapColor(MapColor.BLUE).instrument(NoteBlockInstrument.BASS)
                     //.strength(2.0F, 3.0F).sounds(BlockSoundGroup.SHELF).burnable()));
 
+    //Blocks
+    public static final Block DIAMARITE_BLOCK = registerBlock("diamarite_block",
+            properties -> new Block(properties.mapColor(MapColor.BLACK).requiresTool()
+                    .strength(50.0F, 1200.0F).sounds(BlockSoundGroup.NETHERITE)));
+    public static final Block CORRUPTIONITE_BLOCK = registerBlock("corruptionite_block",
+            properties -> new Block(properties.mapColor(MapColor.BLACK).requiresTool()
+                    .strength(50.0F, 1200.0F).sounds(BlockSoundGroup.NETHERITE)));
+
     //Extra
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
         Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TheBedrockSMP.MOD_ID, name))));

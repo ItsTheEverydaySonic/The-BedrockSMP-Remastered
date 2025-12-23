@@ -176,6 +176,10 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_PRESSURE_PLATE);
                         entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_BUTTON);
+                        entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES);
+                        entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING);
+                        entries.add(TheBedrockSMPBlocks.DIAMARITE_BLOCK);
+                        entries.add(TheBedrockSMPBlocks.CORRUPTIONITE_BLOCK);
                         entries.add(TheBedrockSMPBlocks.DARK_OAK_DOOR_WITH_WINDOWS);
                         entries.add(TheBedrockSMPBlocks.DARK_OAK_TRAPDOOR_WITH_WINDOWS);
                         entries.add(TheBedrockSMPBlocks.STONE_DOOR);
@@ -184,7 +188,6 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPBlocks.BEDROCK_TRAPDOOR);
                         entries.add(TheBedrockSMPBlocks.OBSIDIAN_DOOR);
                         entries.add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
-                        entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_LEAVES);
                         //entries.add(TheBedrockSMPBlocks.SHELFSHELF);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP);
                         entries.add(TheBedrockSMPItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
@@ -211,8 +214,8 @@ public class TheBedrockSMPCreativeTabs {
                         entries.add(TheBedrockSMPItems.GOLDEN_PLAY_BUTTON);
                         entries.add(TheBedrockSMPItems.DIAMOND_PLAY_BUTTON);
                         entries.add(TheBedrockSMPItems.BIG_STICK);
+                        entries.add(TheBedrockSMPItems.NETHERITE_ROD);
                         entries.add(TheBedrockSMPItems.CURSED_EMERALD);
-                        entries.add(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING);
                         entries.add(TheBedrockSMPItems.STEEL_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(TheBedrockSMPItems.STEEL_SWORD);
                         entries.add(TheBedrockSMPItems.STEEL_SHOVEL);

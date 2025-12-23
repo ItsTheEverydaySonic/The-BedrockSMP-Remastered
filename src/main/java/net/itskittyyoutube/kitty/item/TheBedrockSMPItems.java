@@ -176,6 +176,7 @@ public class TheBedrockSMPItems {
             entries.add(CORRUPTIONITE_INGOT);
             entries.add(DIAMOND_INGOT);
             entries.add(AMETHYST_INGOT);
+            entries.add(STEEL_ROD);
             entries.add(NETHERITE_ROD);
             entries.add(REINFORCED_PAPER);
         });

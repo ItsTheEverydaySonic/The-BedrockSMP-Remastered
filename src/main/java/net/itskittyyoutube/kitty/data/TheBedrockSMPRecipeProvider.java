@@ -1033,6 +1033,20 @@ public class TheBedrockSMPRecipeProvider extends FabricRecipeProvider {
                         .input('#', Items.AMETHYST_SHARD)
                         .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
                         .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, TheBedrockSMPBlocks.DIAMARITE_BLOCK, 1)
+                        .pattern("###")
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', TheBedrockSMPItems.DIAMARITE_INGOT)
+                        .criterion(hasItem(TheBedrockSMPItems.DIAMARITE_INGOT), conditionsFromItem(TheBedrockSMPItems.DIAMARITE_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, TheBedrockSMPBlocks.CORRUPTIONITE_BLOCK, 1)
+                        .pattern("###")
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', TheBedrockSMPItems.CORRUPTIONITE_INGOT)
+                        .criterion(hasItem(TheBedrockSMPItems.CORRUPTIONITE_INGOT), conditionsFromItem(TheBedrockSMPItems.CORRUPTIONITE_INGOT))
+                        .offerTo(exporter);
 
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, TheBedrockSMPBlocks.CHERRY_BIRCH_PLANKS, 4)
                         .input(TheBedrockSMPTags.Items.CHERRY_BIRCH_LOGS)

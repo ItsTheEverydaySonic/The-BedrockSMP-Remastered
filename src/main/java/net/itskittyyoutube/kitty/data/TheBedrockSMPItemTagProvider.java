@@ -357,5 +357,9 @@ public class TheBedrockSMPItemTagProvider extends FabricTagProvider.ItemTagProvi
 
         //valueLookupBuilder(ItemTags.WOODEN_SHELVES)
                 //.add(TheBedrockSMPBlocks.SHELFSHELF.asItem());
+
+        valueLookupBuilder(TheBedrockSMPTags.Items.AMETHYST_TOOL_MATERIALS)
+                .add(Items.AMETHYST_SHARD)
+                .add(TheBedrockSMPItems.AMETHYST_INGOT);
     }
 }

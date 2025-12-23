@@ -1,6 +1,8 @@
 {
   "values": [
     "kitty:obsidian_door",
-    "kitty:obsidian_trapdoor"
+    "kitty:obsidian_trapdoor",
+    "kitty:diamarite_block",
+    "kitty:corruptionite_block"
   ]
 }

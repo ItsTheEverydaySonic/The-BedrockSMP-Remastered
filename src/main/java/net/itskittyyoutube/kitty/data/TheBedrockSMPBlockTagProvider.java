@@ -21,7 +21,9 @@ public class TheBedrockSMPBlockTagProvider extends FabricTagProvider.BlockTagPro
                 .add(TheBedrockSMPBlocks.STONE_DOOR)
                 .add(TheBedrockSMPBlocks.STONE_TRAPDOOR)
                 .add(TheBedrockSMPBlocks.OBSIDIAN_DOOR)
-                .add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
+                .add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR)
+                .add(TheBedrockSMPBlocks.DIAMARITE_BLOCK)
+                .add(TheBedrockSMPBlocks.CORRUPTIONITE_BLOCK);
 
         valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(TheBedrockSMPBlocks.STONE_DOOR)
@@ -29,7 +31,9 @@ public class TheBedrockSMPBlockTagProvider extends FabricTagProvider.BlockTagPro
 
         valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(TheBedrockSMPBlocks.OBSIDIAN_DOOR)
-                .add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR);
+                .add(TheBedrockSMPBlocks.OBSIDIAN_TRAPDOOR)
+                .add(TheBedrockSMPBlocks.DIAMARITE_BLOCK)
+                .add(TheBedrockSMPBlocks.CORRUPTIONITE_BLOCK);
 
         valueLookupBuilder(BlockTags.WOODEN_FENCES)
                 .add(TheBedrockSMPBlocks.CHERRY_BIRCH_FENCE)

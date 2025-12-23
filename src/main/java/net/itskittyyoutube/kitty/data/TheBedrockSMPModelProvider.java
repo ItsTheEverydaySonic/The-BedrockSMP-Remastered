@@ -210,6 +210,9 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCrossBlockState(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING, BlockStateModelGenerator.CrossType.NOT_TINTED);
 
         //blockStateModelGenerator.registerShelf(TheBedrockSMPBlocks.SHELFSHELF, TheBedrockSMPBlocks.BLUE_PLANKS);
+
+        blockStateModelGenerator.registerSimpleCubeAll(TheBedrockSMPBlocks.DIAMARITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(TheBedrockSMPBlocks.CORRUPTIONITE_BLOCK);
     }
 
     @Override
@@ -225,7 +228,6 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         itemModelGenerator.register(TheBedrockSMPItems.MUSIC_DISC_EXPLORER, Models.GENERATED);
 
         itemModelGenerator.register(TheBedrockSMPItems.BEDROCKSMP_ICON, Models.GENERATED);
-        itemModelGenerator.register(TheBedrockSMPItems.BIG_STICK, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.CURSED_EMERALD, Models.GENERATED);
 
         itemModelGenerator.register(TheBedrockSMPBlocks.CHERRY_BIRCH_SAPLING.asItem(), Models.GENERATED);
@@ -248,6 +250,7 @@ public class TheBedrockSMPModelProvider extends FabricModelProvider {
         itemModelGenerator.register(TheBedrockSMPItems.CHARD_INGOT, Models.GENERATED);
         itemModelGenerator.register(TheBedrockSMPItems.BURNT_INGOT, Models.GENERATED);
 
+        itemModelGenerator.register(TheBedrockSMPItems.BIG_STICK, Models.HANDHELD);
         itemModelGenerator.register(TheBedrockSMPItems.STEEL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(TheBedrockSMPItems.STEEL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(TheBedrockSMPItems.STEEL_PICKAXE, Models.HANDHELD);

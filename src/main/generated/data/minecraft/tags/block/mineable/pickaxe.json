@@ -3,6 +3,8 @@
     "kitty:stone_door",
     "kitty:stone_trapdoor",
     "kitty:obsidian_door",
-    "kitty:obsidian_trapdoor"
+    "kitty:obsidian_trapdoor",
+    "kitty:diamarite_block",
+    "kitty:corruptionite_block"
   ]
 }

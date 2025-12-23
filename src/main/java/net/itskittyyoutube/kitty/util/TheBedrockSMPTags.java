@@ -25,6 +25,7 @@ public class TheBedrockSMPTags {
         public static final TagKey<Item> STEEL_EQUIPMENT_REPAIR = createTag("steel_equipment_repair");
         public static final TagKey<Item> NETHERITE_EQUIPMENT_REPAIR = createTag("netherite_equipment_repair");
         public static final TagKey<Item> INGOTS = createTag("ingots");
+        public static final TagKey<Item> AMETHYST_TOOL_MATERIALS = createTag("amethyst_tool_materials");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(TheBedrockSMP.MOD_ID, name));
